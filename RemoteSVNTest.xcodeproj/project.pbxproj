@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6025D9161E660D1E00C2139A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025D9151E660D1E00C2139A /* main.m */; };
+		6025D9191E660D1E00C2139A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025D9181E660D1E00C2139A /* AppDelegate.m */; };
+		6025D91B1E660D1E00C2139A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6025D91A1E660D1E00C2139A /* art.scnassets */; };
+		6025D91E1E660D1F00C2139A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025D91D1E660D1F00C2139A /* GameViewController.m */; };
+		6025D9211E660D1F00C2139A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6025D91F1E660D1F00C2139A /* Main.storyboard */; };
+		6025D9231E660D1F00C2139A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6025D9221E660D1F00C2139A /* Assets.xcassets */; };
+		6025D9261E660D1F00C2139A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6025D9241E660D1F00C2139A /* LaunchScreen.storyboard */; };
+		6025D9311E660D1F00C2139A /* RemoteSVNTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025D9301E660D1F00C2139A /* RemoteSVNTestTests.m */; };
+		6025D93C1E660D1F00C2139A /* RemoteSVNTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025D93B1E660D1F00C2139A /* RemoteSVNTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6025D92D1E660D1F00C2139A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6025D9091E660D1E00C2139A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6025D9101E660D1E00C2139A;
+			remoteInfo = RemoteSVNTest;
+		};
+		6025D9381E660D1F00C2139A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6025D9091E660D1E00C2139A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6025D9101E660D1E00C2139A;
+			remoteInfo = RemoteSVNTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6025D9111E660D1E00C2139A /* RemoteSVNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteSVNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6025D9151E660D1E00C2139A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6025D9171E660D1E00C2139A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6025D9181E660D1E00C2139A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6025D91A1E660D1E00C2139A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6025D91C1E660D1F00C2139A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6025D91D1E660D1F00C2139A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6025D9201E660D1F00C2139A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6025D9221E660D1F00C2139A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6025D9251E660D1F00C2139A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6025D9271E660D1F00C2139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6025D92C1E660D1F00C2139A /* RemoteSVNTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteSVNTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6025D9301E660D1F00C2139A /* RemoteSVNTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSVNTestTests.m; sourceTree = "<group>"; };
+		6025D9321E660D1F00C2139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6025D9371E660D1F00C2139A /* RemoteSVNTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteSVNTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6025D93B1E660D1F00C2139A /* RemoteSVNTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSVNTestUITests.m; sourceTree = "<group>"; };
+		6025D93D1E660D1F00C2139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6025D90E1E660D1E00C2139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D9291E660D1F00C2139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D9341E660D1F00C2139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6025D9081E660D1E00C2139A = {
+			isa = PBXGroup;
+			children = (
+				6025D9131E660D1E00C2139A /* RemoteSVNTest */,
+				6025D92F1E660D1F00C2139A /* RemoteSVNTestTests */,
+				6025D93A1E660D1F00C2139A /* RemoteSVNTestUITests */,
+				6025D9121E660D1E00C2139A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6025D9121E660D1E00C2139A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6025D9111E660D1E00C2139A /* RemoteSVNTest.app */,
+				6025D92C1E660D1F00C2139A /* RemoteSVNTestTests.xctest */,
+				6025D9371E660D1F00C2139A /* RemoteSVNTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6025D9131E660D1E00C2139A /* RemoteSVNTest */ = {
+			isa = PBXGroup;
+			children = (
+				6025D9171E660D1E00C2139A /* AppDelegate.h */,
+				6025D9181E660D1E00C2139A /* AppDelegate.m */,
+				6025D91A1E660D1E00C2139A /* art.scnassets */,
+				6025D91C1E660D1F00C2139A /* GameViewController.h */,
+				6025D91D1E660D1F00C2139A /* GameViewController.m */,
+				6025D91F1E660D1F00C2139A /* Main.storyboard */,
+				6025D9221E660D1F00C2139A /* Assets.xcassets */,
+				6025D9241E660D1F00C2139A /* LaunchScreen.storyboard */,
+				6025D9271E660D1F00C2139A /* Info.plist */,
+				6025D9141E660D1E00C2139A /* Supporting Files */,
+			);
+			path = RemoteSVNTest;
+			sourceTree = "<group>";
+		};
+		6025D9141E660D1E00C2139A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6025D9151E660D1E00C2139A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6025D92F1E660D1F00C2139A /* RemoteSVNTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6025D9301E660D1F00C2139A /* RemoteSVNTestTests.m */,
+				6025D9321E660D1F00C2139A /* Info.plist */,
+			);
+			path = RemoteSVNTestTests;
+			sourceTree = "<group>";
+		};
+		6025D93A1E660D1F00C2139A /* RemoteSVNTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6025D93B1E660D1F00C2139A /* RemoteSVNTestUITests.m */,
+				6025D93D1E660D1F00C2139A /* Info.plist */,
+			);
+			path = RemoteSVNTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6025D9101E660D1E00C2139A /* RemoteSVNTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6025D9401E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTest" */;
+			buildPhases = (
+				6025D90D1E660D1E00C2139A /* Sources */,
+				6025D90E1E660D1E00C2139A /* Frameworks */,
+				6025D90F1E660D1E00C2139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteSVNTest;
+			productName = RemoteSVNTest;
+			productReference = 6025D9111E660D1E00C2139A /* RemoteSVNTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6025D92B1E660D1F00C2139A /* RemoteSVNTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6025D9431E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTestTests" */;
+			buildPhases = (
+				6025D9281E660D1F00C2139A /* Sources */,
+				6025D9291E660D1F00C2139A /* Frameworks */,
+				6025D92A1E660D1F00C2139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6025D92E1E660D1F00C2139A /* PBXTargetDependency */,
+			);
+			name = RemoteSVNTestTests;
+			productName = RemoteSVNTestTests;
+			productReference = 6025D92C1E660D1F00C2139A /* RemoteSVNTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6025D9361E660D1F00C2139A /* RemoteSVNTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6025D9461E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTestUITests" */;
+			buildPhases = (
+				6025D9331E660D1F00C2139A /* Sources */,
+				6025D9341E660D1F00C2139A /* Frameworks */,
+				6025D9351E660D1F00C2139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6025D9391E660D1F00C2139A /* PBXTargetDependency */,
+			);
+			name = RemoteSVNTestUITests;
+			productName = RemoteSVNTestUITests;
+			productReference = 6025D9371E660D1F00C2139A /* RemoteSVNTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6025D9091E660D1E00C2139A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sujin;
+				TargetAttributes = {
+					6025D9101E660D1E00C2139A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CDMAEHC529;
+					};
+					6025D92B1E660D1F00C2139A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CDMAEHC529;
+						TestTargetID = 6025D9101E660D1E00C2139A;
+					};
+					6025D9361E660D1F00C2139A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CDMAEHC529;
+						TestTargetID = 6025D9101E660D1E00C2139A;
+					};
+				};
+			};
+			buildConfigurationList = 6025D90C1E660D1E00C2139A /* Build configuration list for PBXProject "RemoteSVNTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6025D9081E660D1E00C2139A;
+			productRefGroup = 6025D9121E660D1E00C2139A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6025D9101E660D1E00C2139A /* RemoteSVNTest */,
+				6025D92B1E660D1F00C2139A /* RemoteSVNTestTests */,
+				6025D9361E660D1F00C2139A /* RemoteSVNTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6025D90F1E660D1E00C2139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6025D91B1E660D1E00C2139A /* art.scnassets in Resources */,
+				6025D9261E660D1F00C2139A /* LaunchScreen.storyboard in Resources */,
+				6025D9231E660D1F00C2139A /* Assets.xcassets in Resources */,
+				6025D9211E660D1F00C2139A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D92A1E660D1F00C2139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D9351E660D1F00C2139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6025D90D1E660D1E00C2139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6025D9191E660D1E00C2139A /* AppDelegate.m in Sources */,
+				6025D91E1E660D1F00C2139A /* GameViewController.m in Sources */,
+				6025D9161E660D1E00C2139A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D9281E660D1F00C2139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6025D9311E660D1F00C2139A /* RemoteSVNTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6025D9331E660D1F00C2139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6025D93C1E660D1F00C2139A /* RemoteSVNTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6025D92E1E660D1F00C2139A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6025D9101E660D1E00C2139A /* RemoteSVNTest */;
+			targetProxy = 6025D92D1E660D1F00C2139A /* PBXContainerItemProxy */;
+		};
+		6025D9391E660D1F00C2139A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6025D9101E660D1E00C2139A /* RemoteSVNTest */;
+			targetProxy = 6025D9381E660D1F00C2139A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6025D91F1E660D1F00C2139A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6025D9201E660D1F00C2139A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6025D9241E660D1F00C2139A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6025D9251E660D1F00C2139A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6025D93E1E660D1F00C2139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6025D93F1E660D1F00C2139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6025D9411E660D1F00C2139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RemoteSVNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6025D9421E660D1F00C2139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RemoteSVNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6025D9441E660D1F00C2139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RemoteSVNTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteSVNTest.app/RemoteSVNTest";
+			};
+			name = Debug;
+		};
+		6025D9451E660D1F00C2139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RemoteSVNTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteSVNTest.app/RemoteSVNTest";
+			};
+			name = Release;
+		};
+		6025D9471E660D1F00C2139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RemoteSVNTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RemoteSVNTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6025D9481E660D1F00C2139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RemoteSVNTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NInja.RemoteSVNTest.RemoteSVNTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RemoteSVNTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6025D90C1E660D1E00C2139A /* Build configuration list for PBXProject "RemoteSVNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6025D93E1E660D1F00C2139A /* Debug */,
+				6025D93F1E660D1F00C2139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6025D9401E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6025D9411E660D1F00C2139A /* Debug */,
+				6025D9421E660D1F00C2139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6025D9431E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6025D9441E660D1F00C2139A /* Debug */,
+				6025D9451E660D1F00C2139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6025D9461E660D1F00C2139A /* Build configuration list for PBXNativeTarget "RemoteSVNTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6025D9471E660D1F00C2139A /* Debug */,
+				6025D9481E660D1F00C2139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6025D9091E660D1E00C2139A /* Project object */;
+}
